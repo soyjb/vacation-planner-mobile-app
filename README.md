@@ -19,7 +19,7 @@ A mobile Android application built with Java, Android Studio, Room, and SQLite t
 - Android SDK
 
 ## Screenshots
-
+https://github.com/soyjb/vacation-planner-mobile-app/blob/main/home-screen.png
 
 ## What I Learned
 This project strengthened my experience with Android development, Room database persistence, CRUD operations, validation, notifications, and mobile application architecture.
