@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="48dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excursion Details"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excursion Title"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/excursionTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Excursion Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excursion Date"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/excursionDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Excursion Date MM/dd/yyyy" />
+
+        <Button
+            android:id="@+id/excursionAlertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Excursion Alert" />
+
+        <Button
+            android:id="@+id/saveExcursionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Excursion" />
+
+        <Button
+            android:id="@+id/deleteExcursionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Excursion" />
+
+        <Button
+            android:id="@+id/backExcursionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>
